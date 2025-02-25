@@ -1,0 +1,77 @@
+body{
+    background-image: url('../img/sparkles.gif');
+  background-color: fuchsia;
+    font-family: cursive;
+    color: chartreuse;
+}
+
+
+
+h1{
+    background-color: hotpink;
+}
+
+h1:hover{
+background-color: cornflowerblue;
+color: darkmagenta;
+}
+
+#werk{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: orange;
+}
+
+#werk:hover{
+background-color: rgb(103, 245, 26);
+color: rgb(0, 139, 111);
+}
+
+marquee{
+    font-family: 'Times New Roman', Times, serif;
+    color: salmon;
+    background-color: aqua;
+}
+
+#jb{
+    position: absolute;
+    left: 300px;
+}
+
+#lol{
+    position: absolute;
+    animation-name: fly;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes fly{
+    from{
+        top: 150px;
+        left: 0px;
+    }
+    to{
+        top: 400px;
+        right: 0px;
+
+    }
+}
+
+#jaden{
+    position: absolute;
+    animation-name: jj;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes jj{
+    from{
+        top: 150px;
+        right: 0px;
+    }
+    to{
+        top: 400px;
+        left: 0px;
+
+    }
+}
+
